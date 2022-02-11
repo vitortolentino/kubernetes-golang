@@ -35,14 +35,11 @@ Verify if the replicaset is up
 `kubectl get replicasets`
 
 ## Running our deployment
-```sh
-    kubectl apply -f k8s/deployment.yaml
-```
+` kubectl apply -f k8s/deployment.yaml`
 
 Verify if the deployment is up
-```sh
-    kubectl get deployments
-```
+
+`kubectl get deployments`
 
 ## Running the service
 `kubectl apply -f k8s/service.yaml`
